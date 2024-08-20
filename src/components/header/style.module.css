@@ -1,0 +1,64 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin-left: 8%;
+  margin-bottom: 2rem;
+  margin-top: 2%;
+}
+.Logo {
+  width: 7%;
+  height: 3%;
+  cursor: pointer;
+}
+.Hamburger {
+  width: 3.3%;
+}
+.OpenNav {
+  display: block;
+  position: absolute;
+  height: 100vh;
+  width: 20%;
+  text-decoration: none;
+  list-style: none;
+  background-image: linear-gradient(to bottom right, #84c0a0, #b8b3b3);
+  right: 0;
+  color: rgb(247, 242, 242);
+  top: -17px;
+  z-index: 100;
+  transition: all 0.5s;
+}
+.CloseNav {
+  display: block;
+  position: absolute;
+  height: 100vh;
+  width: 20%;
+  color: rgb(247, 242, 242);
+  background-color: rgb(138, 138, 138);
+  right: -30%;
+  text-decoration: none;
+  list-style: none;
+  top: -17px;
+  z-index: 100;
+  transition: all 0.5s;
+}
+.OpenNav li,
+.CloseNav li {
+  font-size: 1.5rem;
+  text-decoration: none;
+  margin: 1rem;
+  color: rgb(247, 242, 242);
+  text-decoration: none;
+  list-style: none;
+  cursor: pointer;
+}
+
+.OpenNav li a,
+.CloseNav li a {
+  text-decoration: none;
+  color: rgb(255, 246, 246);
+}
+.closeHamburger {
+  text-align: right;
+}

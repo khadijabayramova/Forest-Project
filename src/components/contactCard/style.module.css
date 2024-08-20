@@ -1,0 +1,18 @@
+.contactCard {
+  width: 60%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contactCard input {
+  width: 70%;
+  padding-left: 20px;
+  height: 7vh;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.082);
+}

@@ -1,0 +1,16 @@
+.XLbuttons {
+  padding: 21px 64px;
+  border-radius: 30px;
+  background-color: #84c0a0;
+  border: none;
+  color: #fff;
+  letter-spacing: 2px;
+  font-weight: 700;
+  font-size: 1rem;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.XLbuttons:hover {
+  background-color: #629378;
+}

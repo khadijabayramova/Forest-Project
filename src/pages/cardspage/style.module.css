@@ -1,0 +1,17 @@
+.CardsPage {
+  background-color: #84c0a0;
+  padding-top: 1rem;
+}
+.AllCards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.CardsPage h1 {
+  font-size: 2.6rem;
+  width: 40%;
+  line-height: 50px;
+  color: #fff;
+  margin: 2rem auto ;
+  text-align: center;
+}

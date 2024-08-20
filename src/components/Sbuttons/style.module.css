@@ -1,0 +1,21 @@
+.Sbuttons {
+  padding: 13px 33px;
+  font-size: 0.875rem;
+  letter-spacing: 2.7px;
+  border: none;
+  text-align: center;
+  border-radius: 25px;
+  font-weight: 500;
+  background-color: #84c0a0;
+  color: #fff;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+.Sbuttons:hover {
+  background-color: #fff;
+  color: #000;
+}
+.Sbuttons:active {
+  background-color: #84c0a0;
+  color: #fff;
+}

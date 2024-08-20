@@ -1,0 +1,36 @@
+.wholedonateCrd {
+  display: flex;
+  width: 50%;
+  margin: 3rem auto;
+  
+}
+.DonationCard {
+  display: flex;
+  margin: 3rem auto;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.DonationCard img {
+  width: 30%;
+}
+.leftBtn ,.rightBtn {
+  border: none;
+  background-color: #fff;
+}
+
+.lessBtn,.moreBtn{
+  border: none;
+  background-color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+}
+/* .BuyBtn{
+  background-image: linear-gradient(120deg, rgb(78, 173, 95) , rgb(158, 158, 153));
+  padding: 10px 30px;
+  border-radius: ;
+} */
+.buyNowbtn {
+  display: flex;
+  gap: 1.5rem;
+}

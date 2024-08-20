@@ -1,0 +1,23 @@
+.Cards {
+  display: flex;
+  gap: 1rem;
+  width: 35%;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 30px;
+  margin: 1rem auto;
+}
+.innerContent {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+.Cards p {
+  width: 70%;
+  line-height: 25px;
+}
+.input {
+  height: 30px;
+  width: 30px;
+  margin-top: 1rem;
+}
